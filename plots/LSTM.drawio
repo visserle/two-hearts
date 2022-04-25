@@ -1,0 +1,41 @@
+<mxfile host="app.diagrams.net" modified="2022-04-25T13:09:14.215Z" agent="5.0 (Windows)" etag="irT3Uzz5aba-p5cjPgqS" version="15.8.2" type="github">
+  <diagram id="DCZs-5VggQhy5fmnCBx7" name="Page-1">
+    <mxGraphModel dx="704" dy="443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZmD_Gqcka_AnOtmW9P_8-52" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZmD_Gqcka_AnOtmW9P_8-49" target="ZmD_Gqcka_AnOtmW9P_8-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmD_Gqcka_AnOtmW9P_8-49" value="Input" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmD_Gqcka_AnOtmW9P_8-50" value="Output" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmD_Gqcka_AnOtmW9P_8-53" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZmD_Gqcka_AnOtmW9P_8-51" target="ZmD_Gqcka_AnOtmW9P_8-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmD_Gqcka_AnOtmW9P_8-54" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="ZmD_Gqcka_AnOtmW9P_8-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="110" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="70" y="110" />
+              <mxPoint x="70" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmD_Gqcka_AnOtmW9P_8-51" value="Computation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmD_Gqcka_AnOtmW9P_8-55" value="Rekurrente Verbindung" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
