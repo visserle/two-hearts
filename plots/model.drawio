@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" modified="2022-04-26T15:15:32.772Z" agent="5.0 (Windows)" etag="f-cO1mIC3B3_xs9mric8" version="15.8.2" type="github">
+  <diagram id="DCZs-5VggQhy5fmnCBx7" name="Page-1">
+    <mxGraphModel dx="1006" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lyzjYyBhKchkxcd_Njx_-16" value="Input" style="rounded=0;whiteSpace=wrap;html=1;portConstraint=none;" parent="1" vertex="1">
+          <mxGeometry x="160" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lyzjYyBhKchkxcd_Njx_-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;endArrow=open;endFill=0;" parent="1" source="lyzjYyBhKchkxcd_Njx_-17" target="lyzjYyBhKchkxcd_Njx_-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lyzjYyBhKchkxcd_Njx_-17" value="Samples&lt;br&gt;(n, 250, 2)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lyzjYyBhKchkxcd_Njx_-20" value="Enocder" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="259" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lyzjYyBhKchkxcd_Njx_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.663;entryY=0.008;entryDx=0;entryDy=0;shadow=0;endArrow=open;endFill=0;entryPerimeter=0;" parent="1" source="lyzjYyBhKchkxcd_Njx_-21" target="lyzjYyBhKchkxcd_Njx_-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="510" />
+              <mxPoint x="240" y="510" />
+              <mxPoint x="240" y="541" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lyzjYyBhKchkxcd_Njx_-21" value="letzter Carry&lt;br&gt;(n, 100)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="259" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lyzjYyBhKchkxcd_Njx_-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;endArrow=open;endFill=0;" parent="1" source="lyzjYyBhKchkxcd_Njx_-25" target="lyzjYyBhKchkxcd_Njx_-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lyzjYyBhKchkxcd_Njx_-25" value="letzter State&lt;br&gt;(n, 100)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="259" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lyzjYyBhKchkxcd_Njx_-26" value="Decoder" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lyzjYyBhKchkxcd_Njx_-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;endArrow=open;endFill=0;" parent="1" source="lyzjYyBhKchkxcd_Njx_-31" target="lyzjYyBhKchkxcd_Njx_-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lyzjYyBhKchkxcd_Njx_-31" value="Sequenz&lt;br&gt;(n, 100, 100)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lyzjYyBhKchkxcd_Njx_-34" value="Wiederholung des Vektors" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lyzjYyBhKchkxcd_Njx_-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;endArrow=open;endFill=0;" parent="1" source="lyzjYyBhKchkxcd_Njx_-37" target="lyzjYyBhKchkxcd_Njx_-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lyzjYyBhKchkxcd_Njx_-37" value="letzter State in 3D&lt;br&gt;(n, 100, 100)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lyzjYyBhKchkxcd_Njx_-41" value="Batch-Normalisierung" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="220" y="330" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lyzjYyBhKchkxcd_Njx_-43" value="Dense Layer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lyzjYyBhKchkxcd_Njx_-45" value="finaler Output&lt;br&gt;(n, 100, 2)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lyzjYyBhKchkxcd_Njx_-47" value="Batch-Normalisierung" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="340" y="330" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
