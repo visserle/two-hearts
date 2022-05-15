@@ -1,6 +1,6 @@
 # Set number of participants
 
-num_dyads = 3
+num_dyads = 4
 num_participants = num_dyads*2
 
 # Create lists for iterations
