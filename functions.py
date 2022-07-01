@@ -24,6 +24,7 @@ def rpeaks_cosine_interpolation(rpeaks_idx, length):
     Returns:
         rpeaks_cip : cosine interpolation of rpeaks
     """
+    import numpy as np
     num_rpeaks = len(rpeaks_idx)
     
     # Interpolation
@@ -45,5 +46,3 @@ def rpeaks_cosine_interpolation(rpeaks_idx, length):
     # keep in mind: there are nans at the start and end
 
     return rpeaks_cip
-
-
