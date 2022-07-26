@@ -1,6 +1,3 @@
-# Import libraries
-import numpy as np
-
 def cosine(x, x1, x2):
     """Returns cosine value (y) for given time step (x) in one period (T) based on the interval between x1 and x2.
 
