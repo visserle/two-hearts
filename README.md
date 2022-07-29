@@ -19,6 +19,6 @@ Jupyter Notebooks:
 
 Daten:
 - data/ -> Datengrundlage für das Deep Learning
-- data/ecg_raw -> experimentelle EKG-Daten und zugenschnittene Daten
+- data/ecg_raw -> experimentelle EKG-Daten und zugeschnittene Daten
 - model/ -> Deep Learning Modelle (data_all.pickle als nested dictionary mit allen Daten aus 02_model)
 - plots/ -> Visualisierungen
