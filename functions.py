@@ -5,7 +5,7 @@ def cosine(x, x1, x2):
         x (float): time step
         x1 (float): period start (y=1)
         x2 (float): period end (y=1)
-
+ 
     Returns:
         val (float): cosine value
     """
